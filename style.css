@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding-top: 50px;
+  height: 50px;
+  margin-right: 150px;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+.logo {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.navbar {
+}
+.navigation {
+  float: right;
+}
+.content {
+  padding: 16px;
+}
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.intro h1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 189, 154);
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .boxa {
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.container .boxb {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.contenue {
+  display: inline grid;
+}
+.bloc1 {
+  display: flex;
+}
+.bloc1 {
+  flex-direction: column;
+}
+.bloc1 {
+  float: left;
+  width: 40%;
+  background-color: rgb(40, 207, 166);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.contenue1 {
+  display: grid;
+}
+.titre1 {
+  display: flex;
+}
+.titre1 {
+  flex-direction: column;
+}
+.titre1 h5 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre1 p {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo1 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: 55mm;
+  width: 65mm;
+  padding-top: 50px;
+}
+.bloc2 {
+  display: flex;
+}
+.bloc2 {
+  flex-direction: column;
+}
+.bloc2 {
+  float: right;
+  width: 40%;
+  background-color: rgb(48, 100, 197);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.contenue2 {
+  display: inline grid;
+}
+.titre2 {
+  display: flex;
+}
+.titre2 {
+  flex-direction: column;
+}
+.titre2 h5 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre2 p {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo2 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: 55mm;
+  width: 65mm;
+  padding-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+a:hover {
+  color: rgb(83, 189, 154);
+}
+a:active {
+  color: aquamarine;
+}
+.clr {
+  clear: both;
+}
+.group {
+  background-color: rgb(163, 236, 230);
+  margin-left: 0px;
+  height: 130mm;
+}
+
+.logonav {
+  width: 25%;
+}
+.location {
+  display: flex;
+}
+.location {
+  flex-direction: column;
+}
+.location p {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.facts h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#side {
+  float: left;
+}
+.boxa {
+  align-self: flex-start;
+}
+.boxa p {
+  color: grey;
+  font-family: helvetica;
+  line-height: 200%;
+}
+.boxb {
+  align-self: flex-end;
+}
+.boxb p {
+  color: grey;
+  font-family: helvetica;
+  line-height: 200%;
+}
+.team {
+  margin-top: 70px;
+  padding-top: 70px;
+  display: flex;
+}
+.team {
+  flex-direction: column;
+}
+.team h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team h2 {
+  align-self: center;
+}
+.team h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team p {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team p {
+  align-self: center;
+}
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+}
+.country {
+  border-radius: 10px;
+}
+.openings {
+  color: white;
+  background-color: blue;
+  align-self: flex-end;
+}
+.text {
+  display: flex;
+  justify-self: flex-end;
+}
+.button {
+  background-color: blue;
+}
+#footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-weight: 50;
+}
+.group {
+  display: flex;
+}
+.rectangle {
+  color: rgb(40, 207, 166);
+  background-color: white;
+}
+.group-header h1 {
+  color: rgb(40, 207, 166);
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.group-header p {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.part_2 {
+  display: flexbox;
+}
+.stats {
+  flex-wrap: wrap;
+}
+.image {
+  border-radius: 12px;
+}
